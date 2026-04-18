@@ -40,7 +40,7 @@ mvn clean compile
 
 ### Running the Application
 ```bash
-mvn exec:java -Dexec.mainClass="com.example.App"
+mvn exec:java -Dexec.mainClass="GeneticAlgorithmMain"
 ```
 
 ### Running Tests
@@ -51,6 +51,6 @@ mvn test
 
 ## Project Structure
 
-- `src/main/java/` - Main source code
+- `src/main/java/` - Core evolutionary logic (GeneticAlgorithm, Individual, IndividualNQueens)
 - `src/test/java/` - Test source code
 - `pom.xml` - Maven configuration
